@@ -6,7 +6,7 @@
 
 * Require Bootstrap into your project
 * Understand and implement a grid system
-* Design HTML pages with the aid of Bootstrap & mockups
+* Design HTML pages with the aid of Bootstrap
 
 ## Why Bootsrap
 
@@ -18,7 +18,7 @@ Until recently, I preferred light-weight CSS frameworks like Skeleton.CSS. Howev
 
 ## Intro to Bootstrap
 
-* [Bootstrap](http://getbootstrap.com/) is a **front-end framework** created by a small team of developers at Twitter and maintained by a much larger community of contributors.
+* [Bootstrap](http://getbootstrap.com/) is a **css library** created by a small team of developers at Twitter and maintained by a much larger community of contributors.
 * The framework consists of one main CSS file, an optional theme CSS file, and an optional JS file.
 
 Bootstrap is extremely popular and knowledge of at least one CSS framework is a very valuable skill to have (and totally worth putting on your resume). 
