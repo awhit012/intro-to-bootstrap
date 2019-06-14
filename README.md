@@ -12,16 +12,16 @@
 
 Bootsrap was created by Twitter and open sourced in 2011. Since then, it has been at, or near the top of the charts in terms of use and popularity. 
 
-It is a heavy-weight framework, meaning you need to include a pretty large file to use it, but it can do a LOT for developers. 
+It is a heavy-weight library (sometimes called a framework) meaning you need to include a pretty large file to use it, but it can do a LOT for developers. 
 
 Until recently, I preferred light-weight CSS frameworks like Skeleton.CSS. However, since CSS Grid has been implemented, there isn't a lot of point to it anymore! Skeleton offers a grid plus a few utility classes. Bootstrap offers both of those, and also a lot of great components, and more. Let's dig in!
 
 ## Intro to Bootstrap
 
 * [Bootstrap](http://getbootstrap.com/) is a **css library** created by a small team of developers at Twitter and maintained by a much larger community of contributors.
-* The framework consists of one main CSS file, an optional theme CSS file, and an optional JS file.
+* The library consists of one main CSS file, optional theme CSS files, and an optional JS file.
 
-Bootstrap is extremely popular and knowledge of at least one CSS framework is a very valuable skill to have (and totally worth putting on your resume). 
+Bootstrap is extremely popular and knowledge of at least one CSS library is a very valuable skill to have (and totally worth putting on your resume). 
 
 Bootstrap comes with a ton of features, including:
 
@@ -41,13 +41,9 @@ Bootstrap comes with a ton of features, including:
 * [Vogue](https://www.vogue.mx/?international)
 * [Lyft](https://www.lyft.com/)
 
-## Including Bootstrap with HTML
-* To use Bootstrap, we need to include Bootstrap's CSS library, optional Javascript libraries (+ or - an optional Bootstrap-Theme CSS file).
-* We also need to include jQuery, as Bootstrap's JS plug-ins depend on it.  
-* There are a few different ways to accomplish this, listed below. In this class, we'll keep it simple and stick with the CDN.
-
-1. CDN (Content Delivery Network - someone else hosts the library/framework and you access it via a URL):  [http://getbootstrap.com/getting-started/#download-cdn](http://getbootstrap.com/getting-started/#download-cdn). Where do we include these in our HTML file?
-2. Download the actual CSS and JS files and link to them on your local computer - better for offline/local development
+## Including Bootstrap CSS with HTML
+* To use Bootstrap CSS, we need to include Bootstrap's CSS library
+* There are a few different ways to accomplish this, listed below. In this class, we'll keep it simple and stick with the [CDN]((https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css)).
 
 ## Responsive Grid System
 * Columns are written in the following format as a class attribute: `col-(breakpoint)-(offset)`
@@ -83,7 +79,7 @@ Or, specify how big each column should be with "col-" classes. The number after 
   ```
 The above code will make the middle column twice as large as the outer two.
 
-For other examples, check out the [Bootstrap docs](http://getbootstrap.com/css/#grid)  
+For other examples, check out the [Bootstrap docs](https://getbootstrap.com/docs/4.1/layout/grid/)  
 
 ## Breakpoints
 
@@ -92,7 +88,7 @@ However you define your columns, Bootstrap's grid is responsive by default. So o
 You can also give the grid additional breakpoints. For example, you can make a 6 column grid become two columns on a tablet!
 
 ## Typography
-For a complete list: [Bootstrap Typography classes](http://getbootstrap.com/css/#type)
+For a complete list: [Bootstrap Typography classes](https://getbootstrap.com/docs/4.1/content/typography/)
 
 To align text, use these classes.  
 
@@ -112,12 +108,6 @@ More useful typography classes...
  <p class="text-uppercase">Uppercased text.</p>
  <p class="text-capitalize">Capitalized text.</p>
 ```
-
-
-## Icons
-![](https://coreui.io/assets/img/blog/bootstrap-icons.jpg)
-
-Bootstrap comes with a set of icons that can be included in your page using the `<i></i>` tag. Check out these icons [here](http://getbootstrap.com/components/#glyphicons)
 
 ## Buttons
 ![](https://getbootstrap.com/docs/3.4/examples/screenshots/theme.jpg)
@@ -139,7 +129,7 @@ Sometimes you need to provide multiple classes to an element in order for Bootst
  <!-- Indicates caution should be taken with this action -->
  <button type="button" class="btn btn-warning">Warning</button>
 ```  
-... and so on.  See the [docs](http://getbootstrap.com/css/#buttons) for a comprehensive list of options.  Note you can add a third class denoting size to any of the above: `.btn-lg`, `.btn-sm`, `.btn-xs`
+... and so on.  See the [docs](https://getbootstrap.com/docs/4.1/components/buttons/) for a comprehensive list of options.  Note you can add a third class denoting size to any of the above: `.btn-lg`, `.btn-sm`, `.btn-xs`
 
 
 ## Images 
@@ -155,11 +145,9 @@ Bootstrap is also very helpful when you need to style your forms. All textual `<
 ## Javascript plug-ins
 Bootstrap allows you to incorporate interactive behavior into your page with Javascript plug-ins.  We don't have time to get into this now, but lets take a quick look at some examples:
 
-- [Responsive Nav bars](http://getbootstrap.com/components/#navbar)
-- [Dropdowns](http://getbootstrap.com/javascript/#dropdowns)
-- [Popovers](http://getbootstrap.com/javascript/#popovers)
-- [Modals](http://getbootstrap.com/javascript/#modals)
-- [Carousels](http://getbootstrap.com/javascript/#carousel)
+- [Popovers](https://getbootstrap.com/docs/4.1/components/popovers/)
+- [Modals](https://getbootstrap.com/docs/4.1/components/modal/)
+- [Carousels](https://getbootstrap.com/docs/4.1/components/carousel/)
 
 
 ## Resources
